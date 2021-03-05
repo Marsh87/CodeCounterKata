@@ -1,0 +1,6 @@
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounter\bin\Debug\CodeCounter.dll
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounter\bin\Debug\CodeCounter.pdb
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounter\obj\Debug\CodeCounter.csprojAssemblyReference.cache
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounter\obj\Debug\CodeCounter.csproj.CoreCompileInputs.cache
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounter\obj\Debug\CodeCounter.dll
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounter\obj\Debug\CodeCounter.pdb

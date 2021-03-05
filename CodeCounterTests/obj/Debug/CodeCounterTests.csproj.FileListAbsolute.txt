@@ -1,0 +1,17 @@
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\bin\Debug\CodeCounterTests.dll
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\bin\Debug\CodeCounterTests.pdb
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\bin\Debug\CodeCounter.dll
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\bin\Debug\nunit.framework.dll
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\bin\Debug\CodeCounter.pdb
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\bin\Debug\nunit.framework.xml
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\obj\Debug\CodeCounterTests.csprojAssemblyReference.cache
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\obj\Debug\CodeCounterTests.csproj.CoreCompileInputs.cache
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\obj\Debug\CodeCounterTests.csproj.CopyComplete
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\obj\Debug\CodeCounterTests.dll
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\obj\Debug\CodeCounterTests.pdb
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\bin\Debug\HasOneLineOfText.txt
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\bin\Debug\HasOneLineOfTextWithEmptyLine.txt
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\bin\Debug\HasNoLines.txt
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\bin\Debug\HasSingleLineComment.txt
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\bin\Debug\HasMultipleSingleLineComment.txt
+C:\Systems\DeliberatePractice\CodeCounter\CodeCounterTests\bin\Debug\HasMultipleLineComment.txt
