@@ -1,8 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCounter", "CodeCounter\CodeCounter.csproj", "{C103DBAC-EF4C-4C78-8C2F-174FFEFBFA60}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCounterTests", "CodeCounterTests\CodeCounterTests.csproj", "{FC749499-C7AC-4403-B069-D781700E7F95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileProcessor", "FileProcessor\FileProcessor.csproj", "{A5531368-BC3B-4D74-A4E3-4F1726B113C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,15 @@ Global
 		{FC749499-C7AC-4403-B069-D781700E7F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC749499-C7AC-4403-B069-D781700E7F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC749499-C7AC-4403-B069-D781700E7F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5531368-BC3B-4D74-A4E3-4F1726B113C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5531368-BC3B-4D74-A4E3-4F1726B113C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5531368-BC3B-4D74-A4E3-4F1726B113C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5531368-BC3B-4D74-A4E3-4F1726B113C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3174BDD2-77AD-409C-B8C4-91DD95339417}
 	EndGlobalSection
 EndGlobal

@@ -4,3 +4,8 @@ C:\Systems\DeliberatePractice\CodeCounter\CodeCounter\obj\Debug\CodeCounter.cspr
 C:\Systems\DeliberatePractice\CodeCounter\CodeCounter\obj\Debug\CodeCounter.csproj.CoreCompileInputs.cache
 C:\Systems\DeliberatePractice\CodeCounter\CodeCounter\obj\Debug\CodeCounter.dll
 C:\Systems\DeliberatePractice\CodeCounter\CodeCounter\obj\Debug\CodeCounter.pdb
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounter\bin\Debug\CodeCounter.dll
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounter\bin\Debug\CodeCounter.pdb
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounter\obj\Debug\CodeCounter.csproj.CoreCompileInputs.cache
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounter\obj\Debug\CodeCounter.dll
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounter\obj\Debug\CodeCounter.pdb
