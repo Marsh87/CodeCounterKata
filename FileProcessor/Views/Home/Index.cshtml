@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post, new {enctype = "multipart/form-data"}))
+    {
+        <form method="post" asp-action="Index">
+            <div class="form-group">
+                <input type="file" class="form-control"/>
+                <input type="text" value="testing" class="form-control"/>
+            </div>
+            <button type="submit" class="btn-primary">Submit</button>
+        </form>
+    }
+
+</div>
