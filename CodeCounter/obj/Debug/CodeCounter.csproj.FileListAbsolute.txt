@@ -9,3 +9,4 @@ C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounter\bin\Debug\Code
 C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounter\obj\Debug\CodeCounter.csproj.CoreCompileInputs.cache
 C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounter\obj\Debug\CodeCounter.dll
 C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounter\obj\Debug\CodeCounter.pdb
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounter\obj\Debug\CodeCounter.csprojAssemblyReference.cache

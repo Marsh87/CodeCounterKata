@@ -77,7 +77,7 @@ namespace CodeCounterTests
         }
 
         [Test]
-        public void CountLines_GivenFileWithOneLineAndMultiLineComment_ShouldReturnTwo()
+        public void GivenValidFilePath_ShouldReturn_FilePathCollection()
         {
             //Arrange 
             var directory = TestContext.CurrentContext.TestDirectory;

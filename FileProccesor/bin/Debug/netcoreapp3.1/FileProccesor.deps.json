@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FileProccesor/1.0.0": {
+        "dependencies": {
+          "CodeCounter": "1.0.0"
+        },
+        "runtime": {
+          "FileProccesor.dll": {}
+        }
+      },
+      "CodeCounter/1.0.0": {
+        "runtime": {
+          "CodeCounter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FileProccesor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CodeCounter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,14 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using CodeCounter.Interfaces;
 
 namespace CodeCounter
 {
-    public class FolderReader
+    public class FolderReader : IFolderReader
     {
         private List<string> filePaths;
 
-        public List<string> GetFilePath(string path)
+        public List<string> GetFilePaths(string path)
         {
             if (!DirectoryExists(path)) return new List<string>();
             filePaths = Directory.GetFiles(path).ToList();

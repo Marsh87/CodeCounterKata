@@ -1,0 +1,16 @@
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\FileProccesor\bin\Debug\netcoreapp3.1\FileProccesor.exe
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\FileProccesor\bin\Debug\netcoreapp3.1\FileProccesor.deps.json
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\FileProccesor\bin\Debug\netcoreapp3.1\FileProccesor.runtimeconfig.json
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\FileProccesor\bin\Debug\netcoreapp3.1\FileProccesor.runtimeconfig.dev.json
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\FileProccesor\bin\Debug\netcoreapp3.1\FileProccesor.dll
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\FileProccesor\bin\Debug\netcoreapp3.1\FileProccesor.pdb
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\FileProccesor\bin\Debug\netcoreapp3.1\CodeCounter.dll
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\FileProccesor\bin\Debug\netcoreapp3.1\CodeCounter.pdb
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\FileProccesor\obj\Debug\netcoreapp3.1\FileProccesor.csprojAssemblyReference.cache
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\FileProccesor\obj\Debug\netcoreapp3.1\FileProccesor.AssemblyInfoInputs.cache
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\FileProccesor\obj\Debug\netcoreapp3.1\FileProccesor.AssemblyInfo.cs
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\FileProccesor\obj\Debug\netcoreapp3.1\FileProccesor.csproj.CoreCompileInputs.cache
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\FileProccesor\obj\Debug\netcoreapp3.1\FileProccesor.csproj.CopyComplete
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\FileProccesor\obj\Debug\netcoreapp3.1\FileProccesor.dll
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\FileProccesor\obj\Debug\netcoreapp3.1\FileProccesor.pdb
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\FileProccesor\obj\Debug\netcoreapp3.1\FileProccesor.genruntimeconfig.cache
