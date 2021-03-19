@@ -1,9 +1,9 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
+using CodeCounter.Interfaces;
 
 namespace CodeCounter
 {
-    public class CodeCounter
+    public class CodeCounter: ICodeCounter
     {
         private  bool _multiLineCommentCheck = false;
         public int CountLines(string filePath)

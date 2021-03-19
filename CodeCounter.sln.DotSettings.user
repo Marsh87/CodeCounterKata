@@ -8,4 +8,14 @@
 	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a2bfb8dd_002Dfc74_002D4b9b_002Dad6e_002D7ba80847d48e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f47dd7bc_002D0713_002D40ba_002Dbaf5_002D1894feaed156/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CodeCounterTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::FC749499-C7AC-4403-B069-D781700E7F95::.NETFramework,Version=v4.7.2::CodeCounterTests.CodeCounterTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::FC749499-C7AC-4403-B069-D781700E7F95::.NETFramework,Version=v4.7.2::CodeCounterTests.FilePath&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::FC749499-C7AC-4403-B069-D781700E7F95::.NETFramework,Version=v4.7.2::CodeCounterTests.GetFileLineCountUseCaseTests.GivenValidFilePath_ShouldReturnOneFile&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::FC749499-C7AC-4403-B069-D781700E7F95::.NETFramework,Version=v4.7.2::CodeCounterTests.GetFileLineCountUseCaseTests.GivenValidFilePath_ShouldReturnMultipleFiles&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::FC749499-C7AC-4403-B069-D781700E7F95::.NETFramework,Version=v4.7.2::CodeCounterTests.GetFileLineCountUseCaseTests.GivenInvalidFilePath_ShouldReturnNoFiles&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::FC749499-C7AC-4403-B069-D781700E7F95::.NETFramework,Version=v4.7.2::CodeCounterTests.GetFileLineCountUseCaseTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

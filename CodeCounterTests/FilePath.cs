@@ -40,7 +40,7 @@ namespace CodeCounterTests
             var folderReader = new FolderReader();
             var expected = 6;
             //Act
-            var results = folderReader.GetFilePath(currentDirectory);
+            var results = folderReader.GetFilePaths(currentDirectory);
             //Assert
             Assert.IsNotNull(results);
             Assert.AreEqual(expected, results.Count);
@@ -50,13 +50,26 @@ namespace CodeCounterTests
         public void GivenValidFolderPathWithNoFilesShouldReturnEmptyListFilePaths()
         {
             //Arrange
-            var currentDirectory = $"{AppDomain.CurrentDomain.BaseDirectory}\\Files\\test";
+            var currentDirectory = $"{AppDomain.CurrentDomain.BaseDirectory}\\empty";
             var folderReader = new FolderReader();
             var expected = 0;
             //Act
-            var results = folderReader.GetFilePath(currentDirectory);
+            var results = folderReader.GetFilePaths(currentDirectory);
             //Assert
             Assert.IsEmpty(results);
+            Assert.AreEqual(expected, results.Count);
+        }   
+        
+        [Test]
+        public void GivenValidFolderPathWithOneFileShouldReturnOneFilePath()
+        {
+            //Arrange
+            var currentDirectory = $"{AppDomain.CurrentDomain.BaseDirectory}\\OneFile";
+            var folderReader = new FolderReader();
+            var expected = 1;
+            //Act
+            var results = folderReader.GetFilePaths(currentDirectory);
+            //Assert
             Assert.AreEqual(expected, results.Count);
         }
     }

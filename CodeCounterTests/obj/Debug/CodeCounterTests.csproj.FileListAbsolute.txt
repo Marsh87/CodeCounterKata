@@ -32,3 +32,9 @@ C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounterTests\obj\Debug
 C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounterTests\obj\Debug\CodeCounterTests.csproj.CopyComplete
 C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounterTests\obj\Debug\CodeCounterTests.dll
 C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounterTests\obj\Debug\CodeCounterTests.pdb
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounterTests\bin\Debug\Castle.Core.dll
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounterTests\bin\Debug\NSubstitute.dll
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounterTests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounterTests\bin\Debug\Castle.Core.xml
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounterTests\bin\Debug\NSubstitute.xml
+C:\Users\nqobani\Documents\Chillisoft\CodeCounterKata\CodeCounterTests\bin\Debug\System.Threading.Tasks.Extensions.xml
