@@ -4,7 +4,7 @@ using CodeCounter.Interfaces;
 
 namespace CodeCounter
 {
-    public class GetFileLineCountUseCase
+    public class GetFileLineCountUseCase : IGetFileLineCountUseCase
     {
         private readonly IFolderReader _folderReader;
         private readonly ICodeCounter _codeCounter;
@@ -24,7 +24,7 @@ namespace CodeCounter
             {
                 var fileCount = new FileLineCount
                 {
-                    FileName = path.Substring(path.LastIndexOf("\\", StringComparison.Ordinal)+1),
+                    FileName = path.Substring(path.LastIndexOf("\\", StringComparison.Ordinal) + 1),
                     Count = _codeCounter.CountLines(path)
                 };
 

@@ -34,7 +34,7 @@ namespace CodeCounterTests
             //Assert
             Assert.AreEqual(1, results.Count);
             Assert.AreEqual(expected.Count, results.Count);
-            CollectionAssert.AreEqual(expected.FirstOrDefault()?.FileName, results.FirstOrDefault()?.FileName);
+            Assert.IsTrue(expected.FirstOrDefault()?.FileName.Contains(results?.FirstOrDefault()?.FileName ?? string.Empty));
         }
 
         [Test]
@@ -60,7 +60,7 @@ namespace CodeCounterTests
             //Assert
             Assert.AreEqual(1, results.Count);
             Assert.AreEqual(expected.Count, results.Count);
-            CollectionAssert.AreEqual(expected.FirstOrDefault()?.FileName, results.FirstOrDefault()?.FileName);
+            Assert.IsTrue(expected.FirstOrDefault()?.FileName.Contains(results?.FirstOrDefault()?.FileName ?? string.Empty));
         }
 
         [Test]

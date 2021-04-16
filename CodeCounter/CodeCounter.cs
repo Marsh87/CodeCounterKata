@@ -3,9 +3,9 @@ using CodeCounter.Interfaces;
 
 namespace CodeCounter
 {
-    public class CodeCounter: ICodeCounter
+    public class CodeCounter : ICodeCounter
     {
-        private  bool _multiLineCommentCheck = false;
+        private bool _multiLineCommentCheck = false;
         public int CountLines(string filePath)
         {
             var countLines = 0;
@@ -15,19 +15,25 @@ namespace CodeCounter
                 while (reader.Peek() > -1)
                 {
                     var line = reader.ReadLine();
-                    if (IsLineAComment(line))
+
+                    if (IsLineAComment(line) && !string.IsNullOrEmpty(line))
                     {
                         countLines--;
                     }
                     multilineCounter = CountMultiLineComment(line, multilineCounter);
-                    countLines++;
+                    if (!string.IsNullOrEmpty(line))
+                        countLines++;
                 }
             }
             return countLines - multilineCounter;
         }
 
-        private  int CountMultiLineComment(string line, int multilineCounter)
+        private int CountMultiLineComment(string line, int multilineCounter)
         {
+            if (string.IsNullOrEmpty(line))
+            {
+                return multilineCounter;
+            }
             if (IsMultiLineCommentStart(line))
             {
                 _multiLineCommentCheck = true;

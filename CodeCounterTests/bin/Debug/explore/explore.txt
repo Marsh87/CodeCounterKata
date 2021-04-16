@@ -1,0 +1,12 @@
+/*This comment*/ var m = 2;/*That comment*/
+var bob = 5; /*
+
+*/var jack = 6;
+
+var bob2 = 5; /*as * * * df*/var bob ... by Sahil Muniram
+
+Sahil Muniram3:23 PM
+var bob2 = 5; /*as
+*
+*
+* df*/var bob = 5;

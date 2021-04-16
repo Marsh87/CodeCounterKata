@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "+bYiE0/GjISoArV5yonrEn0vw00UPmJGYwR/ntXrHvdmL/S+PK2/tupSKAATLLr70TEHgQ4KlOr2WbFoOBkvZw==",
+  "dgSpecHash": "9pgnmdpfQa7hFHbugYgRWTih2seU5bqj3Rlbg72P2ZbMhhLsXz7IxaxuuB9zMcKBO7gXV7i7H/TOMteUj8//sA==",
   "success": true,
   "projectFilePath": "C:\\Users\\nqobani\\Documents\\Chillisoft\\CodeCounterKata\\FileProccesor\\FileProccesor.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\nqobani\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
+    "C:\\Users\\nqobani\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
+    "C:\\Users\\nqobani\\.nuget\\packages\\simpleinjector\\5.3.0\\simpleinjector.5.3.0.nupkg.sha512",
+    "C:\\Users\\nqobani\\.nuget\\packages\\system.componentmodel\\4.0.1\\system.componentmodel.4.0.1.nupkg.sha512",
+    "C:\\Users\\nqobani\\.nuget\\packages\\system.runtime\\4.1.0\\system.runtime.4.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

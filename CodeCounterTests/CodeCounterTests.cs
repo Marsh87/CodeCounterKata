@@ -88,6 +88,20 @@ namespace CodeCounterTests
             //Assert
             var expected = 2;
             Assert.AreEqual(expected, result);
+        }   
+        
+        [Test]
+        public void GivenEmptyString_ShouldIgnore()
+        {
+            //Arrange 
+            var directory = TestContext.CurrentContext.TestDirectory;
+            var filePath = Path.Combine(directory, "empty-file\\file.txt");
+            var sut = new CodeCounter.CodeCounter();
+            //Act
+            var result = sut.CountLines(filePath);
+            //Assert
+            var expected = 2;
+            Assert.AreEqual(expected, result);
         }
 
     }

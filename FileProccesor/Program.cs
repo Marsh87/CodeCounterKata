@@ -1,19 +1,30 @@
 ﻿using System;
 using CodeCounter;
 using CodeCounter.Interfaces;
+using SimpleInjector;
 
 namespace FileProccesor
 {
     class Program
     {
-        private static readonly IFolderReader _folderReader = new FolderReader();
-        private static readonly ICodeCounter _codeCounter = new CodeCounter.CodeCounter();
+        private static readonly Container container = new Container();
+        static Program()
+        {
+            container.Register<ICodeCounter, CodeCounter.CodeCounter>();
+            container.Register<IFolderReader, FolderReader>();
+            container.Register<IGetFileLineCountUseCase, GetFileLineCountUseCase>();
+
+            container.Verify();
+        }
 
         static void Main(string[] args)
         {
-            var useCase = new GetFileLineCountUseCase(_codeCounter, _folderReader);
+            var useCase = container.GetInstance<IGetFileLineCountUseCase>();
 
-            var results = useCase.GetLineCountList("C:\\Users\\nqobani\\Documents\\Chillisoft\\CodeCounterKata\\CodeCounterTests\\bin\\Debug\\Files");
+            //Console.WriteLine("Enter file path");
+            //var path = Console.ReadLine();
+
+            var results = useCase.GetLineCountList("C:\\Users\\nqobani\\Documents\\Chillisoft\\CodeCounterKata\\CodeCounterTests\\bin\\Debug\\explore");
 
             foreach (var item in results)
             {
@@ -22,5 +33,6 @@ namespace FileProccesor
 
             Console.Read();
         }
+
     }
 }

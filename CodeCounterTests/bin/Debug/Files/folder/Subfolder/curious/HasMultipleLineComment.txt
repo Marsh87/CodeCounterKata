@@ -1,0 +1,5 @@
+This is dummy text 
+/*This is a comment
+This is also comment
+This text after a comment*/
+Text after comment

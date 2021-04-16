@@ -44,6 +44,7 @@
     <Compile Include="FolderReader.cs" />
     <Compile Include="Interfaces\ICodeCounter.cs" />
     <Compile Include="Interfaces\IFolderReader.cs" />
+    <Compile Include="Interfaces\IGetFileLineCountUseCase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
