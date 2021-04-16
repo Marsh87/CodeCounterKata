@@ -19,10 +19,12 @@ namespace FileProccesor
 
         static void Main(string[] args)
         {
-
             var useCase = container.GetInstance<IGetFileLineCountUseCase>();
 
-            var results = useCase.GetLineCountList("C:\\Users\\nqobani\\Documents\\Chillisoft\\CodeCounterKata\\CodeCounterTests\\bin\\Debug\\Files");
+            //Console.WriteLine("Enter file path");
+            //var path = Console.ReadLine();
+
+            var results = useCase.GetLineCountList("C:\\Users\\nqobani\\Documents\\Chillisoft\\CodeCounterKata\\CodeCounterTests\\bin\\Debug\\explore");
 
             foreach (var item in results)
             {

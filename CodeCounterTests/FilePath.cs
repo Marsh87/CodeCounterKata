@@ -38,7 +38,7 @@ namespace CodeCounterTests
             //Arrange
             var currentDirectory = $"{AppDomain.CurrentDomain.BaseDirectory}\\Files";
             var folderReader = new FolderReader();
-            var expected = 6;
+            var expected = 24;
             //Act
             var results = folderReader.GetFilePaths(currentDirectory);
             //Assert

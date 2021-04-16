@@ -11,10 +11,7 @@ namespace CodeCounter
 
         public List<string> GetFilePaths(string path)
         {
-            if (!DirectoryExists(path)) return new List<string>();
-            filePaths = Directory.GetFiles(path).ToList();
-
-            return filePaths.Count > 0 ? filePaths : new List<string>();
+            return Directory.GetFiles(path, "*.*", SearchOption.AllDirectories).ToList();
         }
 
         public bool DirectoryExists(string path)
